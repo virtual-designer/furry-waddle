@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Consolas;
+}
+body {
+	height: 100vh;
+	position: relative;
+	background: #262626;
+	color: #fff;
+}
+.clock {
+	height: 25vh;
+	width: 60vw;
+	box-shadow: inset 0 0 1px 2px rgba(0, 0, 0, 0.3);
+	border-radius: 20px;
+	position: relative;
+	flex-wrap: wrap;
+}
+body, .clock, .clock span, .clock header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.clock header {
+	min-height: 7vh;
+	color: #fff;
+	background: #007bff;
+	display: block;
+	width: 60vw;
+	margin-top: -20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.clock header span {
+	margin-top: 10px;
+}
+#time {
+	height: 8vh;
+	width: 100%;
+	margin-top: -15px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	color: #007bff;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+.form {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	display: block;
+}
+.form select {
+	background: rgba(255, 255, 255, 0.8);
+	color: #000;
+	padding: 5px;
+	border: 0;
+	margin-left: 10px;
+	box-shadow: inset 0 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+@media (min-width: 970px){
+	#time {
+		font-size: 60px !important;
+	}
+	.clock header {
+		margin-top: -4.5vh;
+	}
+	.clock header span {
+		font-size: 50px;
+		margin-top: 15px;
+	}
+	#time {
+		margin-top: -50px;
+	}
+}
+@font-face {
+  font-family: Consolas;
+  src: url(consolas.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
