@@ -1,5 +1,5 @@
 # Furry Waddle
-Furry Waddle is a Clock That is Made With HTML, CSS &amp; JavaScript. TimeZone Feature is Also Available.  
+Furry Waddle is a Digital Clock That is Made With HTML, CSS &amp; JavaScript. TimeZone Feature is Also Available.  
 
 __Support My Work By Starring This Repository on Github.__
 
